@@ -9,7 +9,7 @@ main:
     # code to setup the variable mappings
     la    $t0, arrayA                       # load base address of arrayA
     la    $t7, count
-    lw    $t8, 0($t7)                        # load value of count into $t8
+    lw    $t8, 0($t7)                       # load value of count into $t8
     addi  $s1, $t0, 0                       # start index of arrayA
     addi  $s2, $t0, 32                      # end index of arrayA
     addi  $s3, $0, 0                        # count multiples of X
